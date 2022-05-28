@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>IPS-ACTIVAS/INACTIVAS</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./css/estilos.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+<body>
+<script src="/var/www/html/htdocs/fct/html/JavaScript/java.js"></script>
+<div id="div0">
+<h1>WEB MONITORIZACIÓN</h1>
+<img src="./img/logo.png" id="logo"><br>
+</div>
+<form action="./php/discos.php" method="post" name="formu">
+<fieldset id="caja0">
+<legend class="titulo">Obtener Informacion de los Discos</legend>
+Password SSH <input type="password" name="pass">
+<input type="submit" name="discos" value="Escanear">
+</fieldset><br>
+</form>
+<table border='1'>
+<tr>
+<td id="td_ip">IP [ ACTIVA/INACTIVA ]</td>
+<td>Acciones</td>
+</tr>
+<tr>
+<td bgcolor="green">192.168.1.1</td>
+<td><form name="formu" action="./php/acciones.php"><input type="hidden" name="ip" value="192.168.1.1"><input class="accion" type="submit" name="envio" value="Accion"></form></td>
+</tr>
+<td bgcolor="orange">192.168.1.2</td>
+<td><form name="formu" action="./php/acciones.php"><input type="hidden" name="ip" value="192.168.1.2"><input class="accion" type="submit" name="envio" value="Accion"></form></td>
+</tr>
+<td bgcolor="orange">192.168.1.3</td>
+<td><form name="formu" action="./php/acciones.php"><input type="hidden" name="ip" value="192.168.1.3"><input class="accion" type="submit" name="envio" value="Accion"></form></td>
+</tr>
+<td bgcolor="orange">192.168.1.4</td>
+<td><form name="formu" action="./php/acciones.php"><input type="hidden" name="ip" value="192.168.1.4"><input class="accion" type="submit" name="envio" value="Accion"></form></td>
+</tr>
+</table>
+</body>
+</html>

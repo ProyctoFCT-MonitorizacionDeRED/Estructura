@@ -1,0 +1,3 @@
+192.168.1.1#correcto
+192.168.1.2#in-correcto
+192.168.1.3#in-correcto

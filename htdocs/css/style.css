@@ -1,0 +1,54 @@
+body {
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
+p {
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+input {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-spacing: 30;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 21px;
+    padding-left: 21px;
+    background: inherit;
+    color: white;
+    text-align: center;
+}
+::placeholder {
+    text-align: center;
+    color: white;
+}
+#inicio_sesion {
+    background-color: #F13F98;
+    padding-right: 45px;
+    padding-left: 45px;
+    border-radius: 15px;
+    border-style: solid;
+}
+div {
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    padding-top: 10px;
+}
+a {
+    color: black;
+}
+#logo {
+    width: 400px;
+}
+#documento {
+    padding-top: 220px;
+}
+#advertencia {
+    width: 25px;
+    height: 25px;
+}

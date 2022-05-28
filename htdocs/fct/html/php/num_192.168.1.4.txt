@@ -1,0 +1,23 @@
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+udev             1,9G      0  1,9G   0% /dev
+tmpfs            389M   1,9M  388M   1% /run
+/dev/sda2         38G   7,0G   29G  20% /
+tmpfs            1,9G      0  1,9G   0% /dev/shm
+tmpfs            5,0M   4,0K  5,0M   1% /run/lock
+tmpfs            1,9G      0  1,9G   0% /sys/fs/cgroup
+/dev/loop1       128K   128K     0 100% /snap/bare/5
+/dev/loop2        62M    62M     0 100% /snap/core20/1405
+/dev/loop3        55M    55M     0 100% /snap/snap-store/558
+/dev/loop4       218M   218M     0 100% /snap/gnome-3-34-1804/60
+/dev/loop5        56M    56M     0 100% /snap/core18/2344
+/dev/loop6        66M    66M     0 100% /snap/gtk-common-themes/1519
+/dev/loop7        51M    51M     0 100% /snap/snap-store/481
+/dev/loop8        62M    62M     0 100% /snap/core20/1434
+/dev/loop9        63M    63M     0 100% /snap/gtk-common-themes/1506
+/dev/loop10       45M    45M     0 100% /snap/snapd/15534
+/dev/loop11      219M   219M     0 100% /snap/gnome-3-34-1804/77
+/dev/loop12      249M   249M     0 100% /snap/gnome-3-38-2004/99
+/dev/sda1        975M   7,9M  967M   1% /boot/efi
+/dev/sda3         19G   143M   18G   1% /home
+tmpfs            389M    20K  389M   1% /run/user/1002
+/dev/loop13       56M    56M     0 100% /snap/core18/2409
